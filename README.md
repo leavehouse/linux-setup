@@ -25,3 +25,13 @@ Added `set -o vi`
 ## ~/.vimrc
 
 See .vimrc
+
+## Swapping caps and escape
+
+I'm on Ubuntu MATE 16.04.3, so this can be done by:
+
+ - `System > Preferences > Hardware > Keyboard`
+ - `Layouts` tab
+ - `Options` button
+ - `Caps Lock key behavior`
+ - select`Swap ESC and Caps Lock`
