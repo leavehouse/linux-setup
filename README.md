@@ -12,7 +12,7 @@ Building `go-ipfs` from source currently requires GOPATH to be set, even though 
 
 `export GOPATH="$HOME/go"`
 
-Also, append `$GOPATH/bin` to PATH.
+Also, appended `$GOPATH/bin` to PATH.
 
 To make `vim` have colors, I also added:
 
@@ -35,3 +35,10 @@ I'm on Ubuntu MATE 16.04.3, so this can be done by:
  - `Options` button
  - `Caps Lock key behavior`
  - select`Swap ESC and Caps Lock`
+
+## carpalx qwkrfy3 keyboard layout
+
+I use a variant of the [carpalx](http://mkweb.bcgsc.ca/carpalx/) [qwkrfy layout](http://mkweb.bcgsc.ca/carpalx/?partial_optimization) that swaps only 3 pairs of letters instead of 5 w.r.t. QWERTY: e & k, t & f, o & j.
+
+This was set up by copying `carpalx.xkb` (which was modified from the X11 keyboard layout available on the Carpalx website) to `/usr/share/X11/xkb/symbols/carpalx`, then making a shell script that does `setxkbmap carpalx`
+
