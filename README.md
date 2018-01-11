@@ -14,9 +14,11 @@ Building `go-ipfs` from source currently requires GOPATH to be set, even though 
 
 Also, appended `$GOPATH/bin` to PATH.
 
-To make `vim` have colors, I also added:
+## MATE Terminal
 
-`export TERM=xterm-256color`
+To make `vim` have colors, I went to `Edit > Profile Preferences > Title and Command > Run a custom command instead of my shell` and used:
+
+```env TERM=xterm-256color /bin/bash```
 
 ## ~/.bashrc
 
